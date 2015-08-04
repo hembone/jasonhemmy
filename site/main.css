@@ -1,0 +1,63 @@
+body {
+	margin: 0;
+}
+video.bgvid {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	/*background: url(polina.jpg) no-repeat;*/
+	background-size: cover;
+}
+.overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.6);
+}
+.band {
+	width: 100%;
+	padding: 20px 0 12px;
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	bottom: 40px;
+	left: 0;
+}
+.band span {
+	font-size: 3em;
+}
+.band a {
+	margin: 0 14px;
+	padding: 30px 0;
+	color: #1D0800;
+	text-decoration: none;
+	-webkit-transition: all 800ms ease;
+	-moz-transition: all 800ms ease;
+	-ms-transition: all 800ms ease;
+	-o-transition: all 800ms ease;
+	transition: all 800ms ease;
+}
+.band a:hover {
+	color: #441503;
+}
+.band a:first-child {
+	margin-left: 60px;
+}
+@media screen and (max-width: 800px) {
+	.band {
+		text-align: center;
+	}
+	.band a:first-child {
+		margin-left: 0;
+	}
+	.band a {
+		margin: 0 10px;
+		color: #441503;
+	}
+}
