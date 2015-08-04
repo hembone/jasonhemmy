@@ -50,6 +50,16 @@ video.bgvid {
 	margin-left: 60px;
 }
 @media screen and (max-width: 800px) {
+	video {
+		display: none;
+	}
+	body {
+		background: url(img/frame.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
 	.band {
 		text-align: center;
 	}
