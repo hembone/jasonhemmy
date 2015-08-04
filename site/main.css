@@ -12,7 +12,7 @@ video.bgvid {
 	z-index: -100;
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
-	/*background: url(polina.jpg) no-repeat;*/
+	background: url(img/frame.jpg) no-repeat;
 	background-size: cover;
 }
 .overlay {
@@ -23,7 +23,7 @@ video.bgvid {
 }
 .band {
 	width: 100%;
-	padding: 20px 0 12px;
+	padding: 20px 0 18px;
 	background: rgba(0,0,0,0.3);
 	position: absolute;
 	bottom: 40px;
@@ -53,12 +53,12 @@ video.bgvid {
 	video {
 		display: none;
 	}
-	body {
-		background: url(img/frame.jpg) no-repeat center center fixed; 
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
+	html {
+		height: 100%;
+		background-image: url(img/frame.jpg);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: auto 100%;
 	}
 	.band {
 		text-align: center;
