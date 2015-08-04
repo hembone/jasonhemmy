@@ -39,7 +39,5 @@
 
 <!--///////////////////////////////////////-->
 </div>
-<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="main.js"></script>
 </body>
 </html>
