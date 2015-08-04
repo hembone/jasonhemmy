@@ -7,22 +7,34 @@
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 <link rel="stylesheet" href="fonts.css">
 <link rel="stylesheet" href="main.css">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17025298-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
 </head>
 <body>
 <div>
 <!--///////////////////////////////////////-->
 
-<video autoplay poster="/img/frame.jpg" class="bgvid">
+<video autoplay loop poster="/img/frame.jpg" class="bgvid">
 	<source src="/video/waves.webm" type="video/webm">
 	<source src="/video/waves.mp4" type="video/mp4">
-		<source src="/video/waves.ogg" type="video/ogg">
+	<source src="/video/waves.ogg" type="video/ogg">
 </video>
 <div class="overlay"></div>
 
 <div class="band">
-	<a href="https://github.com/hembone" target="_blank"><span class="icon-github"></span></a>
-	<a href="https://www.linkedin.com/in/jasonhemmy" target="_blank"><span class="icon-linkedin"></span></a>
-	<a href="mailto:jasonhemmy@gmail.com" target="_top"><span class="icon-mail"></span></a>
+	<a href="https://github.com/hembone" target="_blank" onclick="ga('send', 'event', 'link', 'click', 'github');"><span class="icon-github"></span></a>
+	<a href="https://www.linkedin.com/in/jasonhemmy" target="_blank" onclick="ga('send', 'event', 'link', 'click', 'linkedin');"><span class="icon-linkedin"></span></a>
+	<a href="mailto:jasonhemmy@gmail.com" target="_top" onclick="ga('send', 'event', 'link', 'click', 'email');"><span class="icon-mail"></span></a>
 </div>
 
 <!--///////////////////////////////////////-->
