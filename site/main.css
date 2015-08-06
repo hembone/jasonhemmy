@@ -35,7 +35,7 @@ video.bgvid {
 .band a {
 	margin: 0 14px;
 	padding: 30px 0;
-	color: #1D0800;
+	color: #441503;
 	text-decoration: none;
 	-webkit-transition: all 800ms ease;
 	-moz-transition: all 800ms ease;
@@ -44,7 +44,7 @@ video.bgvid {
 	transition: all 800ms ease;
 }
 .band a:hover {
-	color: #441503;
+	color: #531A04;
 }
 .band a:first-child {
 	margin-left: 60px;
@@ -68,6 +68,5 @@ video.bgvid {
 	}
 	.band a {
 		margin: 0 10px;
-		color: #441503;
 	}
 }
