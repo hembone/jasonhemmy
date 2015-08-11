@@ -13,10 +13,8 @@
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-17025298-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 
 </head>
@@ -30,6 +28,12 @@
 	<source src="/video/waves.ogg" type="video/ogg">
 </video>
 <div class="overlay"></div>
+<div class="you-win">
+	<span class="icon-cross close"></span>
+	<div class="video-wrapper">
+		<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+	</div>
+</div>
 
 <div class="band">
 	<a href="https://github.com/hembone" target="_blank" onclick="ga('send', 'event', 'link', 'click', 'github');"><span class="icon-github"></span></a>
@@ -39,5 +43,9 @@
 
 <!--///////////////////////////////////////-->
 </div>
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="main.js"></script>
+
 </body>
 </html>
