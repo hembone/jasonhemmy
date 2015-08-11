@@ -13,7 +13,7 @@ $(document).keydown(function(e){
 			reset();
 		}
 		if(count == 10){
-			$('body').addClass('konami');
+			youWin();
 			reset();
 		}
 	} else {
@@ -24,3 +24,12 @@ function reset() {
 	started = false; count = 0;
 	return;
 }
+function youWin() {
+	$('body').addClass('konami');
+	ga('send', 'event', 'rick roll', 'click', 'boom');
+}
+$(function() {
+	$(document).on('click', '.konami .close', function() {
+		$('body').removeClass('konami');
+	});
+});
