@@ -10,7 +10,7 @@
 
 <meta property="og:site_name" content="jasonhemmy.com" />
 <meta property="og:url" content="http://<?php echo $_SERVER['HTTP_HOST']; ?>" />
-<meta property="og:title" content="jasonhemmy" />
+<meta property="og:title" content="This is an emu. His name is Frank." />
 <meta property="og:description" content="My name is Jason Hemmy. I'm a web developer." />
 <meta property="og:image" content="http://<?php echo $_SERVER['HTTP_HOST']; ?>/img/share.jpg" />
 <meta property="og:type" content="website" />
