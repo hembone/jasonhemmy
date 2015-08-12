@@ -31,7 +31,7 @@
 <div class="you-win">
 	<span class="icon-cross close"></span>
 	<div class="video-wrapper">
-		<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+		<div id="player"></div>
 	</div>
 </div>
 

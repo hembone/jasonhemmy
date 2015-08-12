@@ -26,10 +26,29 @@ function reset() {
 }
 function youWin() {
 	$('body').addClass('konami');
-	ga('send', 'event', 'rick roll', 'click', 'boom');
+	player.playVideo();
+	ga('send', 'event', 'rick roll', 'code', 'boom');
 }
 $(function() {
 	$(document).on('click', '.konami .close', function() {
 		$('body').removeClass('konami');
+		player.stopVideo();
 	});
 });
+
+
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+var player;
+function onYouTubeIframeAPIReady() {
+	player = new YT.Player('player', {
+		videoId: 'dQw4w9WgXcQ'
+		,events: {
+		  //'onReady': onPlayerReady
+		  //,'onStateChange': onPlayerStateChange
+		}
+	});
+}
