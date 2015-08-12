@@ -3,6 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="author" content="Jason Hemmy">
+<meta name="description" content="My name is Jason Hemmy. I'm a web developer.">
+<meta name="keywords" content="Jason, Hemmy, JasonHemmy, jasonhemmy, developer, website, html, html5, javascript, php">
+
+<meta property="og:site_name" content="jasonhemmy.com" />
+<meta property="og:url" content="http://<?php echo $_SERVER['HTTP_HOST']; ?>" />
+<meta property="og:title" content="jasonhemmy" />
+<meta property="og:description" content="My name is Jason Hemmy. I'm a web developer." />
+<meta property="og:image" content="http://<?php echo $_SERVER['HTTP_HOST']; ?>/img/share.jpg" />
+<meta property="og:type" content="website" />
+
 <title>jasonhemmy</title>
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 <link rel="stylesheet" href="fonts.css">
