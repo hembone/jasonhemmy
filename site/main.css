@@ -55,7 +55,13 @@ video.bgvid {
 	width: 100%;
 	background: rgba(0,0,0,0.6);
 	z-index: 100;
-	display: none;
+	top: -1000px;
+	opacity: 0;
+	-webkit-transition: all 800ms ease;
+	-moz-transition: all 800ms ease;
+	-ms-transition: all 800ms ease;
+	-o-transition: all 800ms ease;
+	transition: all 800ms ease;
 }
 .you-win .close {
 	font-size: 30px;
@@ -65,7 +71,8 @@ video.bgvid {
 	cursor: pointer;
 }
 .konami .you-win {
-	display: block;
+	top: 0;
+	opacity: 1;
 }
 .you-win .video-wrapper {
 	position: relative;
