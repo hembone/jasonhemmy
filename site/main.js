@@ -34,6 +34,18 @@ $(function() {
 		$('body').removeClass('konami');
 		player.stopVideo();
 	});
+	if(window.innerWidth>768) {
+		setTimeout(function(){
+			$('#contra').animate({
+				bottom: '0'
+			}, 300);
+		}, 4000);
+		setTimeout(function(){
+			$('#contra').animate({
+				bottom: '-200'
+			}, 300);
+		}, 6000);
+	}
 });
 
 
