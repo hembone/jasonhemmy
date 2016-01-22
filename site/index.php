@@ -53,6 +53,8 @@
 	<a href="mailto:jasonhemmy@gmail.com" target="_top" onclick="ga('send', 'event', 'link', 'click', 'email');"><span class="icon-mail"></span></a>
 </div>
 
+<img id="contra" src="/img/contra.png"/>
+
 <!--///////////////////////////////////////-->
 </div>
 

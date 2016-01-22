@@ -89,7 +89,13 @@ video.bgvid {
 	height: 100%;
 	max-height: 700px;
 }
-@media screen and (max-width: 800px) {
+#contra {
+	position: fixed;
+	bottom: -200px;
+	right: 20px;
+	max-width: 300px;
+}
+@media screen and (max-width: 768px) {
 	video {
 		display: none;
 	}
