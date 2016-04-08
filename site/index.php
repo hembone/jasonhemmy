@@ -34,7 +34,7 @@
 <div>
 <!--///////////////////////////////////////-->
 
-<video autoplay loop poster="/img/frame.jpg" class="bgvid">
+<video autoplay poster="/img/frame.jpg" class="bgvid">
 	<source src="/video/waves.webm" type="video/webm">
 	<source src="/video/waves.mp4" type="video/mp4">
 	<source src="/video/waves.ogg" type="video/ogg">
